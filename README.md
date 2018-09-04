@@ -1,4 +1,4 @@
-# ComplierDesign
+# ComplierDesign by Dr.Burgs
 
 1. Regex, finite state autumata
 
