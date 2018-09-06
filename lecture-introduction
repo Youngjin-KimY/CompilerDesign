@@ -1,0 +1,42 @@
+#Introduction
+
+1. Marking Criteria for Assignment
+	- cannot have same name like variables and function.
+	
+	- int foo, with foo(), these two cannot be in same scope.
+
+	
+2. Course outline
+	- introduction to Programming languages and complier
+
+	- lexical analysis : character should be divided into "Tokens"
+
+	- syntactic analysis : check structure of program// structure look right.
+				e.g if(something){} <- checkout parathesis,curry braces
+
+--------------------------------------------------------------------------------------------------- until mid term
+
+	- semantic analysis : meaning, attribute grammer is extension from CFG, which help to check variables.
+
+
+	- run-time organization : storage allocation(memory alloc)
+
+	- code generation : source code into machine code or java byte code,
+
+	- programming language implementation techniques : complier and interpreter etc., how work JVM or VM.
+
+
+3. intro
+        - in assebly Lang, char upper case is label.
+	- what is "nop" op? this has pipeline architecture. next opration of jal is not used usually, so locating "nop" op, then do nothing(empty slot)//in pipeline.(delay slot)
+		-> assembly lang programming hard.
+
+	- big problem of assembly lang : cannot using code from Arm, in x86. for example linux kernel has millions line of code, how could traslate this code to use in other architecture.
+
+	- but high level lang is hardware-independent. 
+
+	- source code -(complie)-> assembly code -(assemble)-> machine code
+
+
+4. complier
+	- complier translates a high-level source program into a target program in machine language. 
