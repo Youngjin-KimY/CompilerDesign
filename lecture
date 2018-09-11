@@ -1,0 +1,37 @@
+09_11
+
+1. Assemly lang
+	- issue : 서로 다른 architecure상에서는 실행되지 않음(not executing on the other architecture)
+
+2. High-level lang
+	- machine indepedent-!!
+
+3. Compilation
+	- Structure of a Compiler
+		Comlier consists of big two part which are Front end and Back end
+		
+4. Page 31
+	- Lexical analyzer
+		position, initial, rate : identifier
+		=, +, * 
+		60 : integer literal 
+		(identifier and literal labels with entry) e.g <id, 1>
+
+	- Syntax anlyzer
+		AST is created by using Tokens.
+		low entry(big num) always is located in low ground.
+		Syntax Tree is unique. 
+		if 예제에서 parantesis가 있다면, shape of tree should be changed.
+		+ typing checking
+		그리고 float랑 int가 프로세서가 처리하는 방식에 매우 다르기 때문에, 사실은 계산을 할 수가 없다. 그래서 일부 언어의 경우에는 type converting을 해준다.
+
+	- Semantic analyzer
+
+	- Intermediate Code Generator
+		t1 = temporary var 1(made in the compiler)
+		
+	- Optimizer
+		tmp 4 -> tmp 2 for code opt.
+
+
+		
