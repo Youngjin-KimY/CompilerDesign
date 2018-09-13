@@ -1,0 +1,40 @@
+#09_13
+
+1. Strucutre of Complier
+	- sometime not using optimizer
+		1. optimizing wrongly
+		2. after optimizing, then difficult to do debug
+	- issue of symbol table
+	- warning from Code Optimizer
+
+
+2. lexeme : string which correspond to token
+
+3. Syntax Analysis
+	- in the example, last have to be id, and there is no empty string, and unary oparator.
+	like -x can not be existed.
+	- 
+4. semantic analysis
+	- if int a, a cannot be name of procedure.
+	case 1
+	int a;
+	a("hi")
+
+	case 2
+	void foo(int a, int b){
+		contents
+	}
+	foo(1)
+
+	case 3
+	int a;
+	a/0
+	
+
+5. dynamic semantic check
+
+	int A[10]
+
+6. code optimization 
+	dead code elimination -> eliminate unreach or cannot execute.
+	pg 40 : dont need to do i*n everytime in inner loop.(i is not changed in the inner loop):
