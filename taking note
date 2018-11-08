@@ -1,0 +1,24 @@
+midterm review
+
+1. syntax vs semantics
+
+	John eats apples.
+	Apples eat john.
+
+	syntax : form and structure of sentences.
+		not concerned with the meaning of programs
+		specified by a context-free grammar 	
+
+	semantics : meaning of sentences. meaning of programs.
+		operational, denotational or axiomatic semantics
+		
+
+
+2. syntax
+	GFGs, BNF and EBNF
+	grammar transformations
+3. parsing
+	
+.....
+
+
